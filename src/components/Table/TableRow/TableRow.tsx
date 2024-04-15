@@ -7,7 +7,7 @@ const StyledTableRow = styled.tr<{ disabled?: boolean; backgroundColor?: string 
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(5, 1fr);
-  background-color: ${props => props.backgroundColor || '#007bff'};
+  background-color: ${props => props.backgroundColor};
   padding: 1%;
 `;
 

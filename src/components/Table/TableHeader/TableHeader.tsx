@@ -9,7 +9,7 @@ const StyledTableHeader = styled.tr<{ disabled?: boolean; backgroundColor?: stri
   grid-gap: 5px;
   grid-template-columns: repeat(5, 1fr);
   font-weight: bold;
-  background-color: ${props => props.backgroundColor || '#007bff'};
+  background-color: ${props => props.backgroundColor};
   padding: 1%;
 `;
 

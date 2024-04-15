@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const StyledTable = styled.table<{ disabled?: boolean; backgroundColor?: string  }>`
     width: 100%;
     border-collapse: collapse;
-    background-color: ${props => props.backgroundColor || '#007bff'};
+    background-color: ${props => props.backgroundColor};
 
     ${(props) =>
         props.disabled &&
