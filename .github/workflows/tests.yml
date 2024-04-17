@@ -1,12 +1,10 @@
-name: Run tests then Deploy
-
+name: Run tests 
 on:
   push:
-    branches: [ main ]  # Run this on pushes to the main branch
+    branches: [ main ]  
   pull_request:
-    branches: [ main ]  # Also run on pull requests to the main branch
-  workflow_dispatch:    # Allow manual triggering of the workflow
-
+    branches: [ main ]  
+  workflow_dispatch:    
 permissions:
   contents: read
   pages: write
@@ -24,7 +22,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4.0.2
         with:
-          node-version: '18'  # Keep the Node version consistent with your local/Docker setup
+          node-version: '18'  
           cache: 'npm'
 
       - name: Install dependencies
@@ -33,4 +31,3 @@ jobs:
       - name: Run tests
         run: npm test
 
-      # Additional deployment steps can be added here if needed

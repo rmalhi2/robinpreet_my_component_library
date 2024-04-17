@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest"
+    "test:storybook": "test-storybook",
+    "test": "jest",
+    "ci:test": "npm run storybook & sleep 30 && npm run test"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -30,6 +32,7 @@
     "@storybook/react": "^7.6.17",
     "@storybook/react-vite": "^7.6.17",
     "@storybook/test": "^7.6.17",
+    "@storybook/test-runner": "^0.17.0",
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.3.1",

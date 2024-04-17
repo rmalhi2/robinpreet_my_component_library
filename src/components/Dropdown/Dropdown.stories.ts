@@ -38,10 +38,10 @@ export const Default = {
   play: async ({ canvasElement }: { canvasElement: HTMLElement }) => {
     const canvas = within(canvasElement);
     const select = canvas.getByRole('combobox');
-    await userEvent.selectOptions(select, 'Maybe');  // Change the dropdown to "Maybe"
-    await userEvent.selectOptions(select, 'No');  // Change the dropdown to "No"
-    await userEvent.selectOptions(select, 'Yes');  // Change the dropdown to "Yes"
-    await new Promise((r) => setTimeout(r, 500));  // Add delay to see the selection change
+    await userEvent.selectOptions(select, 'Maybe');  //Change the dropdown to "Maybe"
+    await userEvent.selectOptions(select, 'No');  //hange the dropdown to "No"
+    await userEvent.selectOptions(select, 'Yes');  //change the dropdown to "Yes"
+    await new Promise((r) => setTimeout(r, 500));  //adding delay
   }
 };
 
@@ -54,9 +54,9 @@ export const Disabled = {
   play: async ({ canvasElement }: { canvasElement: HTMLElement }) => {
     const canvas = within(canvasElement);
     const select = canvas.getByRole('combobox');
-    await userEvent.selectOptions(select, 'Maybe');  // Attempt to change the dropdown to "Maybe"
-    await userEvent.selectOptions(select, 'No');  // Attempt to change the dropdown to "No"
-    await userEvent.selectOptions(select, 'Yes');  // Attempt to change the dropdown to "Yes"
-    // Since the dropdown is disabled, no actual change should occur
+    await userEvent.selectOptions(select, 'Maybe');  //try to change the dropdown to "Maybe"
+    await userEvent.selectOptions(select, 'No');  //try to change the dropdown to "No"
+    await userEvent.selectOptions(select, 'Yes');  //try to change the dropdown to "Yes"
+
   }
 };

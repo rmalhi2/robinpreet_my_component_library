@@ -59,7 +59,7 @@ export const Disabled = {
     const canvas = within(canvasElement);
     const radioButton = canvas.getByRole('radio', { name: 'Option 1' });
 
-    // Attempt to click the disabled radio button
+    //try to click the disabled radio button
     await userEvent.click(radioButton);
     
   }
