@@ -32,6 +32,6 @@ jobs:
         run: npm test
 
       - name: Run ci tests
-        run: npm test:ci
+        run: npm run test:ci
         
 
