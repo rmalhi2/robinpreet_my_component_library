@@ -12,7 +12,7 @@
     "build-storybook": "storybook build",
     "test:storybook": "test-storybook",
     "test": "jest",
-    "ci:test": "npm run storybook & sleep 30 && npm run test"
+    "test:ci": "npm run storybook & sleep 30 && npm run test"
   },
   "dependencies": {
     "react": "^18.2.0",
