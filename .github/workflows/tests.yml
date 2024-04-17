@@ -17,7 +17,6 @@ jobs:
     name: Run test suite
     runs-on: ubuntu-latest
 
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,7 +24,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4.0.2
         with:
-          node-version: '18'  # Keep the Node version consistent with Docker
+          node-version: '18'  # Keep the Node version consistent with your local/Docker setup
           cache: 'npm'
 
-      - run: npm test
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      # Additional deployment steps can be added here if needed
