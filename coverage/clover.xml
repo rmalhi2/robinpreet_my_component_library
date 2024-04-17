@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1713214364084" clover="3.2.0">
-  <project timestamp="1713214364084" name="All files">
-    <metrics statements="1411" coveredstatements="7" conditionals="62" coveredconditionals="2" methods="62" coveredmethods="2" elements="1535" coveredelements="11" complexity="0" loc="1411" ncloc="1411" packages="15" files="61" classes="61"/>
+<coverage generated="1713383770351" clover="3.2.0">
+  <project timestamp="1713383770351" name="All files">
+    <metrics statements="1464" coveredstatements="7" conditionals="62" coveredconditionals="2" methods="62" coveredmethods="2" elements="1588" coveredelements="11" complexity="0" loc="1464" ncloc="1464" packages="15" files="61" classes="61"/>
     <package name="src">
       <metrics statements="45" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="App.tsx" path="/home/rmalhi/business/my-component-library/src/App.tsx">
@@ -57,7 +57,7 @@
       </file>
     </package>
     <package name="src.components.Button">
-      <metrics statements="73" coveredstatements="7" conditionals="6" coveredconditionals="2" methods="6" coveredmethods="2"/>
+      <metrics statements="96" coveredstatements="7" conditionals="6" coveredconditionals="2" methods="6" coveredmethods="2"/>
       <file name="Button.lib.ts" path="/home/rmalhi/business/my-component-library/src/components/Button/Button.lib.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -69,7 +69,7 @@
         <line num="7" count="2" type="stmt"/>
       </file>
       <file name="Button.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Button/Button.stories.ts">
-        <metrics statements="26" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="49" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -96,6 +96,29 @@
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
       </file>
       <file name="Button.tsx" path="/home/rmalhi/business/my-component-library/src/components/Button/Button.tsx">
         <metrics statements="32" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -149,7 +172,7 @@
     </package>
     <package name="src.components.Card">
       <metrics statements="85" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="Card.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Card/Card.stories.tsx">
+      <file name="Card.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Card/Card.stories.ts">
         <metrics statements="34" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -229,7 +252,7 @@
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
       </file>
-      <file name="Card.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Card/Card.types.tsx">
+      <file name="Card.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Card/Card.types.ts">
         <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -248,9 +271,9 @@
       </file>
     </package>
     <package name="src.components.Dropdown">
-      <metrics statements="89" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="Dropdown.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Dropdown/Dropdown.stories.tsx">
-        <metrics statements="45" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="106" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="Dropdown.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Dropdown/Dropdown.stories.ts">
+        <metrics statements="62" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -296,6 +319,23 @@
         <line num="43" count="0" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
       </file>
       <file name="Dropdown.tsx" path="/home/rmalhi/business/my-component-library/src/components/Dropdown/Dropdown.tsx">
         <metrics statements="37" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -337,7 +377,7 @@
         <line num="36" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
       </file>
-      <file name="Dropdown.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Dropdown/Dropdown.types.tsx">
+      <file name="Dropdown.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Dropdown/Dropdown.types.ts">
         <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -353,7 +393,7 @@
     </package>
     <package name="src.components.Hero Image">
       <metrics statements="61" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="Hero_Image.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Hero Image/Hero_Image.stories.tsx">
+      <file name="Hero_Image.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Hero Image/Hero_Image.stories.ts">
         <metrics statements="26" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -412,7 +452,7 @@
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
       </file>
-      <file name="Hero_Image.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Hero Image/Hero_Image.types.tsx">
+      <file name="Hero_Image.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Hero Image/Hero_Image.types.ts">
         <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -429,7 +469,7 @@
     </package>
     <package name="src.components.Img">
       <metrics statements="153" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="Img.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Img/Img.stories.tsx">
+      <file name="Img.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Img/Img.stories.ts">
         <metrics statements="97" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -578,7 +618,7 @@
         <line num="45" count="0" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
       </file>
-      <file name="Img.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Img/Img.types.tsx">
+      <file name="Img.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Img/Img.types.ts">
         <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -597,7 +637,7 @@
     </package>
     <package name="src.components.Label">
       <metrics statements="65" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="Label.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Label/Label.stories.tsx">
+      <file name="Label.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Label/Label.stories.ts">
         <metrics statements="26" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -660,7 +700,7 @@
         <line num="30" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
       </file>
-      <file name="Label.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Label/Label.types.tsx">
+      <file name="Label.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Label/Label.types.ts">
         <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -676,9 +716,9 @@
       </file>
     </package>
     <package name="src.components.Radio button">
-      <metrics statements="87" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="Radio_Button.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Radio button/Radio_Button.stories.tsx">
-        <metrics statements="51" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="102" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="Radio_Button.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Radio button/Radio_Button.stories.ts">
+        <metrics statements="66" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -730,6 +770,21 @@
         <line num="49" count="0" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
         <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
       </file>
       <file name="Radio_Button.tsx" path="/home/rmalhi/business/my-component-library/src/components/Radio button/Radio_Button.tsx">
         <metrics statements="27" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -761,7 +816,7 @@
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
       </file>
-      <file name="Radio_Button.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Radio button/Radio_Button.types.tsx">
+      <file name="Radio_Button.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Radio button/Radio_Button.types.ts">
         <metrics statements="7" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -779,7 +834,7 @@
     </package>
     <package name="src.components.Table">
       <metrics statements="72" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="Table.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/Table.stories.tsx">
+      <file name="Table.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/Table.stories.ts">
         <metrics statements="24" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -849,7 +904,7 @@
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
       </file>
-      <file name="Table.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/Table.types.tsx">
+      <file name="Table.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/Table.types.ts">
         <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -866,7 +921,7 @@
     </package>
     <package name="src.components.Table.TableCell">
       <metrics statements="47" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="TableCell.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableCell/TableCell.stories.tsx">
+      <file name="TableCell.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/TableCell/TableCell.stories.ts">
         <metrics statements="22" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -912,7 +967,7 @@
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
       </file>
-      <file name="TableCell.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableCell/TableCell.types.tsx">
+      <file name="TableCell.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/TableCell/TableCell.types.ts">
         <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -928,7 +983,7 @@
     </package>
     <package name="src.components.Table.TableFooter">
       <metrics statements="55" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="TableFooter.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableFooter/TableFooter.stories.tsx">
+      <file name="TableFooter.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/TableFooter/TableFooter.stories.ts">
         <metrics statements="23" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -981,7 +1036,7 @@
         <line num="23" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
       </file>
-      <file name="TableFooter.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableFooter/TableFooter.types.tsx">
+      <file name="TableFooter.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/TableFooter/TableFooter.types.ts">
         <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -998,7 +1053,7 @@
     </package>
     <package name="src.components.Table.TableHeader">
       <metrics statements="60" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="TableHeader.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableHeader/TableHeader.stories.tsx">
+      <file name="TableHeader.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/TableHeader/TableHeader.stories.ts">
         <metrics statements="23" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -1055,7 +1110,7 @@
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
       </file>
-      <file name="TableHeader.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableHeader/TableHeader.types.tsx">
+      <file name="TableHeader.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/TableHeader/TableHeader.types.ts">
         <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -1072,9 +1127,9 @@
       </file>
     </package>
     <package name="src.components.Table.TableRow">
-      <metrics statements="56" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="TableRow.stories.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableRow/TableRow.stories.tsx">
-        <metrics statements="22" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="54" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="TableRow.stories.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/TableRow/TableRow.stories.ts">
+        <metrics statements="20" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -1095,8 +1150,6 @@
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
       </file>
       <file name="TableRow.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableRow/TableRow.tsx">
         <metrics statements="26" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -1127,7 +1180,7 @@
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
       </file>
-      <file name="TableRow.types.tsx" path="/home/rmalhi/business/my-component-library/src/components/Table/TableRow/TableRow.types.tsx">
+      <file name="TableRow.types.ts" path="/home/rmalhi/business/my-component-library/src/components/Table/TableRow/TableRow.types.ts">
         <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
